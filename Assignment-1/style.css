@@ -1,0 +1,56 @@
+.container{
+    position: relative;
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+    margin: auto;
+    top: 90px;
+}
+
+.big{
+    position: absolute;
+    background-color: burlywood;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    top: 50px;
+    left: 50px;
+}
+
+.big span{
+    position: inherit;
+    top: 30px;
+    left: 250px;
+}
+
+.medium{
+    position: absolute;
+    background-color: rgb(213, 157, 83);
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    top: 125px;
+    left: 125px;
+}
+
+.medium span{
+    position: inherit;
+    top: 30px;
+    left: 175px;
+}
+
+.small{
+    position: absolute;
+    background-color: rgb(207, 137, 45);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    top: 200px;
+    left: 200px;
+}
+
+.small span{
+    position: inherit;
+    top: 30px;
+    left: 100px;
+}
