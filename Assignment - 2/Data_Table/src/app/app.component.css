@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.table-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    width: 70%;
+    height: 70%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px 2px #ccc;
+}
+
+.table{
+    height: 50%;
+    overflow-y: scroll;
+}
+
+.actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    height: 20%;
+    background-color: rgba(204, 204, 204, 0.4);
+    border-radius: 10px;
+}
+
+.fetch{
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(45deg, #2dfff5, #fff878);
+}

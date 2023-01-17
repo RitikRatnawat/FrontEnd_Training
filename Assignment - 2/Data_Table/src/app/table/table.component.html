@@ -1,0 +1,18 @@
+<table>
+  <thead class="table-header">
+    <tr>
+      <th>USER ID</th>
+      <th>ID</th>
+      <th>TITLE</th>
+      <th>BODY</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of data;">
+      <td>{{user.userId}}</td>
+      <td>{{user.id}}</td>
+      <td>{{user.title}}</td>
+      <td>{{user.body}}</td>
+    </tr>
+  </tbody>
+</table>

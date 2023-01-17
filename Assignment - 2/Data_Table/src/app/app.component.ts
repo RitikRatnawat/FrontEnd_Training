@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { APIServiceService } from './apiservice.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Data_Table';
+  
+  data :any;
+
+  constructor(private _apiService: APIServiceService) {}
+
+  showData(){
+    this._apiService.getData().subscribe(res => this.data = res)
+  }
+
+  resetData(){
+    this.data = undefined;
+  }
 }
