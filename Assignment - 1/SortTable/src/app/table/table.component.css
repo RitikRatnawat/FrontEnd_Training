@@ -1,0 +1,42 @@
+.table-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 70%;
+    overflow-y: scroll;
+    margin: auto;
+    margin-top: 5%;
+}
+
+table{
+    width: 100%;
+    margin: auto;
+    border-spacing: 5px;
+}
+
+th, td{
+    word-wrap: break-word;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+th{
+    background: linear-gradient(45deg, #6157ff, #ee49fd);
+    position: sticky;
+    top: 0;
+    border-radius: 3px;
+    color: white;
+}
+
+th:nth-child(1), th:nth-child(3){
+    width: 10%;
+}
+
+th:nth-child(2), th:nth-child(4){
+    width: 40%;
+}
+
