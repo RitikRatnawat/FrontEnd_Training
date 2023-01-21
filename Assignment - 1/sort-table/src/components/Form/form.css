@@ -1,0 +1,35 @@
+.form-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    background-color: rgba(204, 204, 204, 0.2);
+    margin: auto;
+    margin-top: 5%;
+    padding: 5%;
+    border-radius: 10px;
+}
+
+label{
+    font-size: 1.5vw;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+input[type='radio']{
+    width: 1vw;
+    height: 1vw;
+}
+
+.sort{
+    width : 20%;
+    padding: 10px;
+    font-size: 1.5vw;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #6157ff, #ee49fd);
+}

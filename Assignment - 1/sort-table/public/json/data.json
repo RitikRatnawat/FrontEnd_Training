@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Tom Cruise",
+        "age": 60,
+        "dob": "3 Jul, 1962"
+    },
+    {
+        "id": 2,
+        "name": "Brad Pitt",
+        "age": 59,
+        "dob": "18 Dec, 1963"
+    },
+    {
+        "id": 3,
+        "name": "Tom Hanks",
+        "age": 66,
+        "dob": "9 Jul, 1956"
+    },
+    {
+        "id": 4,
+        "name": "Johnny Depp",
+        "age": 59,
+        "dob": "9 Jun, 1963"
+    },
+    {
+        "id": 5,
+        "name": "Chris Evans",
+        "age": 41,
+        "dob": "13 Jun, 1981"
+    },
+    {
+        "id": 6,
+        "name": "Jackie Chan",
+        "age": 68,
+        "dob": "7 Apr, 1954"
+    },
+    {
+        "id": 7,
+        "name": "Samuel L. Jackson",
+        "age": 74,
+        "dob": "21 Dec, 1948"
+    },
+    {
+        "id": 8,
+        "name": "Leonardo DiCaprio",
+        "age": 48,
+        "dob": "11 Nov, 1974"
+    },
+    {
+        "id": 9,
+        "name": "James Franco",
+        "age": 44,
+        "dob": "19 Apr, 1978"
+    },
+    {
+        "id": 10,
+        "name": "Keanu Reeves",
+        "age": 48,
+        "dob": "2 Sep, 1964"
+    }
+]
