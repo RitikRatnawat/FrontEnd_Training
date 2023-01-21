@@ -5,9 +5,6 @@ const DataContext = React.createContext({
     sort: (by) => { }
 });
 
-export default DataContext;
-
-
 export const DataContextProvider = (props) => {
 
     const [actorsData, setActorsData] = useState([]);
@@ -24,9 +21,11 @@ export const DataContextProvider = (props) => {
         }
     }, []);
 
+
     useEffect(() => {
         fetchData();
     }, [fetchData]);
+
 
     const sortData = (by) => {
 
@@ -52,3 +51,5 @@ export const DataContextProvider = (props) => {
         </DataContext.Provider>
     );
 }
+
+export default DataContext;
