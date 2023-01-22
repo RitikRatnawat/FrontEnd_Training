@@ -28,15 +28,15 @@ export const DataContextProvider = (props) => {
 
 
     const sortData = (by) => {
-
+        let data = [...actorsData];
 
         if (by === "Name") {
-            let data = actorsData.sort((a, b) => { return a.name.localeCompare(b.name) })
-            // console.log(data)
-            setActorsData(data)
+            data.sort((a, b) => { return a.name.localeCompare(b.name) })
+            // console.log(data);
+            setActorsData(data);
         }
         else if (by === "Age") {
-            let data = actorsData.sort((a, b) => { return b.age - a.age })
+            data.sort((a, b) => { return b.age - a.age })
             // console.log(data);
             setActorsData(data);
         }
