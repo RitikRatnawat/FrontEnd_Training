@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { useContext } from 'react';
+import Table from './components/Table/Table';
+import classes from './App.module.css';
+import APIContext from './store/api-context';
 
 function App() {
+
+  const apiCtx = useContext(APIContext);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <section className={classes.container}>
+      <div className={classes["table-container"]}>
+        <div className={classes.table}>
+          <Table />
+        </div>
+        <div className={classes.actions}>
+          <button className={classes.btn} onClick={apiCtx.fetch}>Fetch Data</button>
+          <button className={classes.btn} onClick={apiCtx.reset}>Reset Data</button>
+        </div>
+      </div>
+    </section>
   );
 }
 
